@@ -1,0 +1,587 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chilakala Pavani | AI Agent & GenAI Developer Portfolio</title>
+    <meta name="description" content="Portfolio of Chilakala Pavani, an AI Agent, Generative AI, and Machine Learning Developer. B.Tech CSBS student at GITAM University Bengaluru.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Background Glow Elements -->
+    <div class="blob-glow blob-1"></div>
+    <div class="blob-glow blob-2"></div>
+    <div class="blob-glow blob-3"></div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>Pavani<span class="logo-accent">.AI /&gt;</span>
+            </a>
+            <button class="mobile-toggle" aria-label="Toggle Navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav-menu">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#terminal" class="nav-link special-link">Agent Terminal</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="hero-content">
+                <span class="badge">Generative AI & Agent Developer</span>
+                <h1 class="hero-title">
+                    Hi, I'm <span class="highlight">Chilakala Pavani</span>
+                </h1>
+                <h2 class="hero-subtitle">
+                    I build <span id="typewriter" class="typing-text"></span><span class="cursor">|</span>
+                </h2>
+                <p class="hero-description">
+                    Computer Science & Business Systems student at GITAM University specializing in large language models, Retrieval-Augmented Generation (RAG), prompt engineering, and deep learning.
+                </p>
+                <div class="hero-actions">
+                    <a href="#terminal" class="btn btn-primary">
+                        <span>Interact with AI Agent</span>
+                        <svg class="btn-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+                <div class="hero-socials">
+                    <a href="https://github.com/chilakala-pavani" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="GitHub">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+                    </a>
+                    <a href="https://www.linkedin.com/in/chilakala-pavani-09509b326/" target="_blank" rel="noopener noreferrer" class="social-icon-btn" aria-label="LinkedIn">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
+                    </a>
+                    <a href="mailto:chilakalapavaniwork05@gmail.com" class="social-icon-btn" aria-label="Email">
+                        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Hero Brain Interactive SVG Animation -->
+            <div class="hero-visual">
+                <div class="brain-card glass-panel">
+                    <div class="brain-card-header">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                        <span class="panel-title">agentic_model.json</span>
+                    </div>
+                    <div class="brain-svg-container">
+                        <svg class="neural-net-svg" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+                            <!-- Background Glow -->
+                            <defs>
+                                <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+                                    <stop offset="0%" stop-color="var(--accent-primary)" stop-opacity="0.15" />
+                                    <stop offset="100%" stop-color="var(--bg-primary)" stop-opacity="0" />
+                                </radialGradient>
+                                <linearGradient id="line-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" stop-color="var(--accent-primary)" />
+                                    <stop offset="100%" stop-color="var(--accent-secondary)" />
+                                </linearGradient>
+                            </defs>
+                            <circle cx="200" cy="200" r="180" fill="url(#glow)" />
+                            
+                            <!-- Synapse lines -->
+                            <g class="synapses" stroke="url(#line-grad)" stroke-width="1.5" stroke-opacity="0.4">
+                                <line x1="80" y1="200" x2="160" y2="120" />
+                                <line x1="80" y1="200" x2="160" y2="200" />
+                                <line x1="80" y1="200" x2="160" y2="280" />
+                                
+                                <line x1="160" y1="120" x2="240" y2="100" />
+                                <line x1="160" y1="120" x2="240" y2="180" />
+                                <line x1="160" y1="200" x2="240" y2="180" />
+                                <line x1="160" y1="200" x2="240" y2="220" />
+                                <line x1="160" y1="280" x2="240" y2="220" />
+                                <line x1="160" y1="280" x2="240" y2="300" />
+
+                                <line x1="240" y1="100" x2="320" y2="200" />
+                                <line x1="240" y1="180" x2="320" y2="200" />
+                                <line x1="240" y1="220" x2="320" y2="200" />
+                                <line x1="240" y1="300" x2="320" y2="200" />
+
+                                <!-- Diagonal cross linkages -->
+                                <line x1="160" y1="120" x2="160" y2="200" stroke-dasharray="3,3" />
+                                <line x1="160" y1="200" x2="160" y2="280" stroke-dasharray="3,3" />
+                                <line x1="240" y1="100" x2="240" y2="180" stroke-dasharray="3,3" />
+                                <line x1="240" y1="180" x2="240" y2="220" stroke-dasharray="3,3" />
+                                <line x1="240" y1="220" x2="240" y2="300" stroke-dasharray="3,3" />
+                            </g>
+
+                            <!-- Node Pulses -->
+                            <g class="pulses">
+                                <circle cx="80" cy="200" r="10" fill="var(--accent-secondary)" opacity="0.3" class="pulse-anim" />
+                                <circle cx="320" cy="200" r="12" fill="var(--accent-primary)" opacity="0.3" class="pulse-anim-delayed" />
+                            </g>
+
+                            <!-- Neural Nodes -->
+                            <g class="nodes" fill="var(--bg-primary)" stroke-width="3">
+                                <!-- Input layer -->
+                                <circle cx="80" cy="200" r="8" stroke="var(--accent-secondary)" class="node-interactive" data-info="Input Vector: User query & context" />
+                                
+                                <!-- Hidden Layer 1 -->
+                                <circle cx="160" cy="120" r="8" stroke="var(--accent-primary)" class="node-interactive" data-info="RAG Retrieval & Embeddings matching" />
+                                <circle cx="160" cy="200" r="8" stroke="var(--accent-primary)" class="node-interactive" data-info="Agent Decision Loop (Reasoning)" />
+                                <circle cx="160" cy="280" r="8" stroke="var(--accent-primary)" class="node-interactive" data-info="Context Window Processing" />
+
+                                <!-- Hidden Layer 2 -->
+                                <circle cx="240" cy="100" r="8" stroke="var(--accent-accent)" class="node-interactive" data-info="Prompt Template formatting" />
+                                <circle cx="240" cy="180" r="8" stroke="var(--accent-accent)" class="node-interactive" data-info="LLM API inference call" />
+                                <circle cx="240" cy="220" r="8" stroke="var(--accent-accent)" class="node-interactive" data-info="Response parsing & guardrails" />
+                                <circle cx="240" cy="300" r="8" stroke="var(--accent-accent)" class="node-interactive" data-info="Tool execution / Web search" />
+
+                                <!-- Output layer -->
+                                <circle cx="320" cy="200" r="10" stroke="var(--accent-secondary)" class="node-interactive" data-info="Output Generation: Structured action or text" />
+                            </g>
+                        </svg>
+                        <div class="node-tooltip" id="node-tooltip">Hover over nodes to inspect Agent Pipeline</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">01. Identity</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>
+                        I am an undergraduate student in <strong>Computer Science and Business Systems</strong> at GITAM University, Bengaluru (expected graduation in 2026). I have combined analytical business thinking with technical AI engineering to solve real-world problems.
+                    </p>
+                    <p>
+                        My main interest is centered around <strong>Generative AI</strong> and <strong>AI Agent development</strong>. I focus on making large language models more useful by implementing Retrieval-Augmented Generation (RAG) pipelines, building responsive chatbots, and crafting agentic workflows that can call external APIs and handle complex reasoning loops.
+                    </p>
+                    <p>
+                        With a solid foundation in Python, Machine Learning, Deep Learning, and SQL, I love building applications that make complex systems intelligent and user-friendly.
+                    </p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 10v6M2 10l10-5 10 5-10 5z"></path><path d="M6 12v5c0 2 2 3 6 3s6-1 6-3v-5"></path></svg>
+                        </div>
+                        <h3 class="stat-value">8.58 / 10</h3>
+                        <p class="stat-label">B.Tech CGPA</p>
+                        <span class="stat-sub">GITAM University (2022–2026)</span>
+                    </div>
+                    <div class="stat-card glass-panel">
+                        <div class="stat-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+                        </div>
+                        <h3 class="stat-value">CSBS</h3>
+                        <p class="stat-label">Computer Science & Business Systems</p>
+                        <span class="stat-sub">Fusing Tech with Strategy</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Technical Skills Section -->
+        <section id="skills" class="skills-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">02. Toolkit</span>
+                <h2 class="section-title">Technical Expertise</h2>
+                <div class="section-divider"></div>
+            </div>
+            
+            <div class="skills-grid">
+                <!-- Generative AI Skills -->
+                <div class="skill-category-card glass-panel">
+                    <div class="category-header">
+                        <div class="category-icon text-cyan">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                        </div>
+                        <h3>Generative AI & LLMs</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-info"><span>Prompt Engineering</span><span class="percentage">95%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 95%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>LLMs (GPT, Gemini, Claude)</span><span class="percentage">90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Retrieval-Augmented Gen (RAG)</span><span class="percentage">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>AI Agents & Workflows</span><span class="percentage">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>OpenAI API & LangChain</span><span class="percentage">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Machine Learning / DL Skills -->
+                <div class="skill-category-card glass-panel">
+                    <div class="category-header">
+                        <div class="category-icon text-purple">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="4.93" y1="4.93" x2="19.07" y2="19.07"></line></svg>
+                        </div>
+                        <h3>Machine & Deep Learning</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-info"><span>Model Training & Evaluation</span><span class="percentage">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Neural Networks (DL)</span><span class="percentage">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Feature Engineering & Preprocessing</span><span class="percentage">90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Libraries (TensorFlow, Scikit-learn)</span><span class="percentage">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Data Analysis (Pandas, NumPy)</span><span class="percentage">90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Core Technical & Tools -->
+                <div class="skill-category-card glass-panel">
+                    <div class="category-header">
+                        <div class="category-icon text-pink">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg>
+                        </div>
+                        <h3>Languages & Tools</h3>
+                    </div>
+                    <ul class="skill-list">
+                        <li>
+                            <div class="skill-info"><span>Python</span><span class="percentage">90%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 90%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>SQL</span><span class="percentage">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Developer Tools (Git, VS Code)</span><span class="percentage">85%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 85%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>AWS Cloud Practitioner</span><span class="percentage">75%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 75%;"></div></div>
+                        </li>
+                        <li>
+                            <div class="skill-info"><span>Power BI & Data Visualization</span><span class="percentage">80%</span></div>
+                            <div class="skill-bar"><div class="skill-progress" style="width: 80%;"></div></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="soft-skills-cloud">
+                <span class="badge badge-outline">Logical Reasoning</span>
+                <span class="badge badge-outline">Problem Solving</span>
+                <span class="badge badge-outline">Analytical Thinking</span>
+                <span class="badge badge-outline">Business Strategy</span>
+                <span class="badge badge-outline">Research</span>
+                <span class="badge badge-outline">Team Collaboration</span>
+                <span class="badge badge-outline">Continuous Learning</span>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">03. Implementations</span>
+                <h2 class="section-title">Selected Projects</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card glass-panel">
+                    <div class="project-media">
+                        <div class="project-badge">Deep Learning</div>
+                        <svg class="project-icon" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="url(#line-grad)" stroke-width="1.5"><path d="M22 12h-4l-3 9L9 3l-3 9H2"></path></svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Vital Health Monitoring System</h3>
+                        <p class="project-description">
+                            Developed a predictive healthcare application utilizing physiological datasets and deep learning models to estimate blood pressure. Managed the pipeline starting from EDA and feature engineering to model training, evaluation, and optimizing prediction accuracy using MAE and RMSE metrics.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Deep Learning</span>
+                            <span class="tech-pill">TensorFlow</span>
+                            <span class="tech-pill">Feature Engineering</span>
+                            <span class="tech-pill">EDA</span>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card glass-panel">
+                    <div class="project-media">
+                        <div class="project-badge">Cybersecurity & DL</div>
+                        <svg class="project-icon" width="60" height="60" viewBox="0 0 24 24" fill="none" stroke="url(#line-grad)" stroke-width="1.5"><rect x="3" y="11" width="18" height="11" rx="2" ry="2"></rect><path d="M7 11V7a5 5 0 0 1 10 0v4"></path></svg>
+                    </div>
+                    <div class="project-body">
+                        <h3 class="project-title">Intrusion Detection System for IoT Networks</h3>
+                        <p class="project-description">
+                            Built a deep learning neural network classifier designed to inspect IoT network traffic datasets and identify malicious cyber attacks. Evaluated model architectures on precision, accuracy, and recall metrics to achieve a 94% classification accuracy while minimizing false alarm rates.
+                        </p>
+                        <div class="project-tech-stack">
+                            <span class="tech-pill">Python</span>
+                            <span class="tech-pill">Neural Networks</span>
+                            <span class="tech-pill">IoT Security</span>
+                            <span class="tech-pill">Model Validation</span>
+                            <span class="tech-pill">Classification</span>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Interactive AI Agent Terminal Section -->
+        <section id="terminal" class="terminal-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">04. Sandbox</span>
+                <h2 class="section-title">Interactive AI Agent Terminal</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <p class="terminal-instructions">
+                Interact with the mock **Pavani-AI-Agent** directly. Query the agent to extract resume details, verify certifications, or ask questions about projects.
+            </p>
+
+            <div class="terminal-window glass-panel">
+                <div class="terminal-title-bar">
+                    <div class="terminal-dots">
+                        <div class="dot red"></div>
+                        <div class="dot yellow"></div>
+                        <div class="dot green"></div>
+                    </div>
+                    <span class="terminal-title">pavani@agent-virtual-env:~</span>
+                    <div class="terminal-status">
+                        <span class="status-indicator online"></span>
+                        <span class="status-text">LLM Engine: Gemini 1.5</span>
+                    </div>
+                </div>
+                
+                <div class="terminal-body" id="terminal-body">
+                    <div class="terminal-row system-msg">
+                        <span class="terminal-time">[19:26:10]</span> 
+                        <span class="text-green">[SYSTEM]</span> Initializing agent pipeline...
+                    </div>
+                    <div class="terminal-row system-msg">
+                        <span class="terminal-time">[19:26:11]</span> 
+                        <span class="text-green">[SYSTEM]</span> RAG Index loaded successfully. Ready.
+                    </div>
+                    <div class="terminal-row agent-msg">
+                        <span class="terminal-prompt">Pavani-Agent&gt;</span> Hello! I am Pavani's virtual assistant agent. You can ask me questions about her skills, projects, certifications, or education. Or type <span class="cmd-highlight">help</span> to view all commands.
+                    </div>
+                </div>
+
+                <div class="terminal-suggestions">
+                    <button class="suggest-btn" data-cmd="skills">/skills</button>
+                    <button class="suggest-btn" data-cmd="projects">/projects</button>
+                    <button class="suggest-btn" data-cmd="education">/education</button>
+                    <button class="suggest-btn" data-cmd="certifications">/certifications</button>
+                    <button class="suggest-btn" data-cmd="experience">/experience</button>
+                </div>
+
+                <form class="terminal-input-container" id="terminal-form">
+                    <span class="terminal-prompt-indicator">guest@terminal:~#</span>
+                    <input type="text" id="terminal-input" placeholder="Type a message or select a shortcut above..." autocomplete="off">
+                    <button type="submit" class="terminal-send-btn" aria-label="Execute Command">
+                        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                    </button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Experience & Certifications -->
+        <section id="experience" class="experience-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">05. Timeline</span>
+                <h2 class="section-title">Experience & Certifications</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="timeline-grid">
+                <!-- Experience Area -->
+                <div class="timeline-block">
+                    <h3 class="timeline-subtitle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-secondary)" stroke-width="2" class="timeline-sub-icon"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
+                        Professional Simulations
+                    </h3>
+                    <div class="timeline-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-item-content">
+                                <span class="timeline-date">Tata Group (Forage)</span>
+                                <h4>Data Analytics Virtual Experience</h4>
+                                <p>Simulated core tasks of a data analyst: analyzing customer demographics, preparing visual dashboards for business leaders, and executing data-driven strategy decision mocks.</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-marker"></div>
+                            <div class="timeline-item-content">
+                                <span class="timeline-date">Goldman Sachs (Forage)</span>
+                                <h4>Operations Virtual Experience</h4>
+                                <p>Simulated credit risk assessment pipeline. Handled customer delinquency metrics analysis and designed process optimization workflows for banking transactions.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Certifications Area -->
+                <div class="timeline-block">
+                    <h3 class="timeline-subtitle">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="var(--accent-primary)" stroke-width="2" class="timeline-sub-icon"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+                        Professional Certifications
+                    </h3>
+                    <div class="certifications-list">
+                        <div class="cert-card glass-panel">
+                            <div class="cert-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-accent)" stroke-width="2"><path d="M21.5 2v6h-6M21.34 15.57a10 10 0 1 1-.57-8.38l5.67-5.67"></path></svg>
+                            </div>
+                            <div class="cert-details">
+                                <h4>AWS Certified Cloud Practitioner</h4>
+                                <p>Amazon Web Services (AWS) - Verification of cloud design principles, services architecture, core security models, and billing structures.</p>
+                            </div>
+                        </div>
+                        <div class="cert-card glass-panel">
+                            <div class="cert-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-accent)" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="9" y1="9" x2="15" y2="15"></line><line x1="15" y1="9" x2="9" y2="15"></line></svg>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Generative AI Fundamentals</h4>
+                                <p>Foundational principles of LLMs, prompt template optimizations, and semantic vector stores.</p>
+                            </div>
+                        </div>
+                        <div class="cert-card glass-panel">
+                            <div class="cert-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-accent)" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline></svg>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Data Structures and Algorithms</h4>
+                                <p>Coursera - Practical coding implementations of lists, heaps, sorting algorithms, graphs, and algorithmic time complexity optimizations.</p>
+                            </div>
+                        </div>
+                        <div class="cert-card glass-panel">
+                            <div class="cert-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent-accent)" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path></svg>
+                            </div>
+                            <div class="cert-details">
+                                <h4>Machine Learning Foundations</h4>
+                                <p>Internshala - Core supervised & unsupervised modeling, optimization functions, and validation methodologies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section scroll-reveal">
+            <div class="section-header">
+                <span class="section-tag">06. Connection</span>
+                <h2 class="section-title">Get In Touch</h2>
+                <div class="section-divider"></div>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info-panel">
+                    <h3>Let's collaborate on AI agents and ML products</h3>
+                    <p>I am looking for internship and career opportunities in Generative AI, RAG engineering, prompt design, and data intelligence. Send me a message and I'll respond within 24 hours.</p>
+                    
+                    <div class="contact-details-list">
+                        <a href="mailto:chilakalapavaniwork05@gmail.com" class="contact-item-link">
+                            <div class="contact-item-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                            </div>
+                            <span>chilakalapavaniwork05@gmail.com</span>
+                        </a>
+                        <a href="tel:+919392748440" class="contact-item-link">
+                            <div class="contact-item-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+                            </div>
+                            <span>+91 9392748440</span>
+                        </a>
+                        <div class="contact-item-link">
+                            <div class="contact-item-icon">
+                                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+                            </div>
+                            <span>Bengaluru, Karnataka, India</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-panel glass-panel">
+                    <form id="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" required placeholder=" " autocomplete="name">
+                            <label for="name">Your Name</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" required placeholder=" " autocomplete="email">
+                            <label for="email">Your Email</label>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" required placeholder=" ">
+                            <label for="subject">Subject</label>
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" required placeholder=" "></textarea>
+                            <label for="message">Message</label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <span>Send Message</span>
+                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </button>
+                        <div class="form-status" id="form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>&copy; 2026 Chilakala Pavani. Built with dynamic HTML, CSS, and JS.</p>
+            <div class="footer-links">
+                <a href="https://github.com/chilakala-pavani" target="_blank" rel="noopener noreferrer">GitHub</a>
+                <a href="https://www.linkedin.com/in/chilakala-pavani-09509b326/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
